@@ -1,0 +1,13 @@
+{
+    "name": "vendor/aria2-remote-server",
+    "description": "Description of project aria2_remote_server.",
+    "authors": [
+        {
+            "name": "Banee Ishaque K",
+            "email": "baneeishaque@gmail.com"
+        }
+    ],
+    "require": {
+        "google/protobuf": "v3.5.1.1"
+    }
+}
