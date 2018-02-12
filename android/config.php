@@ -1,3 +1,3 @@
 <?php
-
-$aria2_remote_connection = new mysqli("localhost", "vfmobo6d_ndk", "9895204814", "vfmobo6d_aria2_remote");
+$cpanel_username="findandg";
+$aria2_remote_connection = new mysqli("localhost", $cpanel_username."_ndk", "aA9895204814", $cpanel_username."_aria2_remote");
