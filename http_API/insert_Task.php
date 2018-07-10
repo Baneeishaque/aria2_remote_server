@@ -2,6 +2,8 @@
 
 include_once 'config.php';
 
+header('Access-Control-Allow-Origin: *');
+
 $url = filter_input(INPUT_GET, 'url');
 echo "Encoded URL is " . $url . '<br/>';
 
